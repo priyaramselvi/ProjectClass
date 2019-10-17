@@ -3,7 +3,7 @@ package org.array.collections;
 public class Exercises {
 public static void main(String[] args) {
 	int sum=0;
-	int a[]=new int[10];
+	int a[]=new int[11];
 	a[0]=1;
 	a[1]=2;
 	a[2]=3;
@@ -14,6 +14,7 @@ public static void main(String[] args) {
 	a[7]=8;
 	a[8]=9;
 	a[9]=10;
+	a[10]=11;
 	//to find the sum
 	for(int i=0;i<a.length;i++) {
 		sum=sum+a[i];
